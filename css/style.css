@@ -1,0 +1,121 @@
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  overflow-y: hidden !important;
+  height: 100%;
+}
+
+#resultBox {
+  width: 48%;
+  height: 54px;
+  border: solid 2px black;
+  padding-right: 10px;
+  font-family: avantgarde;
+  background-color: white;
+  font-size: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: right;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+#result {
+  margin: 0 auto;
+  line-height: 50px;
+}
+#inputBox {
+  width: 48%;
+  height: 54px;
+  border: solid 2px black;
+  padding-right: 10px;
+  font-family: avantgarde;
+  background-color: white;
+  font-size: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: right;
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+#input {
+  margin: 0 auto;
+  line-height: 50px;
+}
+.numberKey, .decimal, .divide, .multiply, .sum, .pow, .minus, .equal, .modulus {
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+  background-color: gray;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: avantgarde;
+  font-size: 25px;
+  display: inline-block;
+  position: relative;
+  border-radius: 10%;
+  margin: 2px;
+  margin-top: 7px;
+  float: left;
+}
+.numberKey:active,
+.decimal:active,
+.divide:active,
+.multiply:active,
+.sum:active,
+.pow:active,
+.minus:active,
+.equal:active,
+.modulus:active {
+  transform: translateY(2%);
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
+a:hover {
+  text-decoration: none !important;
+  color: black;
+}
+a:focus {
+  text-decoration: none !important;
+  color: black;
+}
+a:active {
+  text-shadow: 0px 1px black;
+}
+
+.numberKey:active {
+  background-color: darkgray;
+}
+
+#calculator {
+  position: fixed;
+  padding: 10px;
+  height: 400px;
+  width: 300px;
+  border: solid black;
+  display: inline-block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: lightgray;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 3%;
+  box-shadow: 0 0 1em gray;
+}
+
+.keyRow {
+  padding-top: 20px;
+}
