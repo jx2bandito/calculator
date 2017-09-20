@@ -8,6 +8,15 @@ $(document).ready(function() {
   $(".decimal").on("click", function() {
     current = ".";
 
+    for (var i = result.length - 1; i >= 0; i--) {
+      if (result[i] == ".") {
+        return false;
+      }
+      if (/[/+/-/*///^/%]/.test(result[i])) {
+        break;
+      }
+    }
+
     input += current;
     result += current;
     $("#input").html(input);
@@ -109,7 +118,8 @@ $(document).ready(function() {
         result = result.slice(currentResult.length);
       }
     }
-    result = eval(result);
+
+    result = math.eval(result);
 
     $("#result").html(result);
     input = "";
