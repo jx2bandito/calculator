@@ -7,6 +7,4 @@ numbers being considered infinity. This project was part of the FreeCodeCamp cur
 <br />
 <br />Project page: https://jx2bandito.github.io/calculator
 <br />
-<br />Originally made in Codepen: https://codepen.io/jx2bandito/pen/VPYPmm
-<br />
 <br />FreeCodeCamp prompt: https://www.freecodecamp.org/challenges/build-a-javascript-calculator
